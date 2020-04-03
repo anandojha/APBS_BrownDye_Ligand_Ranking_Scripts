@@ -12,7 +12,7 @@ Open Source Softwares Installation Required:
 6. VMD (https://www.ks.uiuc.edu/Research/vmd/)
 
 What you need before running the scripts:
-1. PDB files of all the ligands (sequentially numbered from 1-n for n belonging to any integer) in the Ligands folder
+1. PDB files of all the ligands (sequentially numbered from 1-n for n belonging to any integer) in the ligands folder
 2. PDB file of the receptor named as receptor.pdb
 
 What does the scripts do:
@@ -24,8 +24,6 @@ What does the scripts do:
 6. Run single trajectory simulations using nam simulation (Northup-Alison-McCommon Algorithm).
 7. Calculate the second reaction rate constant.
 
-To run the scripts, simply run the parameters.py python file . 
+To run the scripts, simply run the commands.py python file which will run all the scripts sequentially and performa the analysis. 
 To make any changes in the parameters, make changes to the parameters.py parameters file. 
-
-
 
